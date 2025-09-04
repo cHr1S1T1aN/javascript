@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokémon + Países API</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f0f0f0;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+      max-width: 300px;
+      margin: 20px;
+    }
+    img {
+      width: 150px;
+    }
+    #resultado {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Buscar Pokémon</h1>
+  <input type="text" id="pokemonName" placeholder="Digite o nome do Pokémon">
+  <button id="buscarPokemonBtn">Buscar Pokémon</button>
+
+  <h1>Buscar País</h1>
+  <input type="text" id="countryName" placeholder="Digite o nome do País">
+  <button id="buscarCountryBtn">Buscar País</button>
+
+  <div id="resultado"></div>
+
+  <!-- Importando o script JS -->
+  <script src="main.js"></script>
+</body>
+<body>
+    <div id="mensagem"></div>
+<div id="resultado"></div>
+</body>
+</html>
